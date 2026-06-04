@@ -42,7 +42,7 @@ Add this to your package's `pubspec.yaml` file:
 ```yaml
 dependencies:
   flutter_contacts_picker:
-    path: ./ # Or your git/pub.dev path
+    path: https://github.com/yash2004jani/flutter_contacts_picker/tree/stagies.git
 ```
 
 Then Run:

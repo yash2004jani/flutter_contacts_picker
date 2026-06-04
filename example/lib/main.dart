@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Contacts Picker Demo',
+      title: 'Contacts Picker',
       theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
       home: const DemoScreen(),
     );
@@ -83,7 +83,7 @@ class _DemoScreenState extends State<DemoScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Contacts Picker Demo'),
+        title: const Text('Contacts Picker'),
         actions: [
           IconButton(icon: const Icon(Icons.refresh), onPressed: _loadContacts),
         ],
